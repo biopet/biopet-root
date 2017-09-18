@@ -7,3 +7,6 @@
 [submodule "biopet-summary-tool"]
 	path = biopet-summary-tool
 	url = git@github.com:biopet/biopet-summary-tool.git
+[submodule "biopet-utils"]
+	path = biopet-utils
+	url = git@github.com:biopet/biopet-utils.git
