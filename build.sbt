@@ -8,7 +8,7 @@ scalaVersion := "2.11.11"
 resolvers += Resolver.mavenLocal
 
 lazy val root = (project in file("."))
-  .aggregate(biopetSummary, biopetSummaryTool, biopetReport, biopetUtils)
+  .aggregate(biopetSummary, biopetSummaryTool, biopetReport, biopetUtils, biopetToolUtils, biopetNgsUtils)
 
 lazy val biopetUtils = project in file("biopet-utils")
 lazy val biopetToolUtils = project in file("biopet-utils/biopet-tool-utils")
