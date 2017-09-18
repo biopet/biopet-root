@@ -1,0 +1,6 @@
+[submodule "biopet-summary"]
+	path = biopet-summary
+	url = git@github.com:biopet/biopet-summary.git
+[submodule "biopet-report"]
+	path = biopet-report
+	url = git@github.com:biopet/biopet-report.git
