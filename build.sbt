@@ -21,3 +21,5 @@ lazy val biopetSummaryTool = (project in file("biopet-summary-tool"))
 lazy val biopetReport = (project in file("biopet-report"))
   .enablePlugins(PlayScala)
   .dependsOn(biopetSummary, biopetUtils)
+
+libraryDependencies += "com.h2database" % "h2" % "1.4.196"
