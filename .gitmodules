@@ -1,12 +1,12 @@
 [submodule "biopet-summary"]
 	path = biopet-summary
-	url = git@github.com:biopet/biopet-summary.git
+	url = https://github.com/biopet/biopet-summary.git
 [submodule "biopet-report"]
 	path = biopet-report
-	url = git@github.com:biopet/biopet-report.git
+	url = https://github.com/biopet/biopet-report.git
 [submodule "biopet-summary-tool"]
 	path = biopet-summary-tool
-	url = git@github.com:biopet/biopet-summary-tool.git
+	url = https://github.com/biopet/biopet-summary-tool.git
 [submodule "biopet-utils"]
 	path = biopet-utils
-	url = git@github.com:biopet/biopet-utils.git
+	url = https://github.com/biopet/biopet-utils.git
