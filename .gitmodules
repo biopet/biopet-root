@@ -10,3 +10,6 @@
 [submodule "biopet-utils"]
 	path = biopet-utils
 	url = https://github.com/biopet/biopet-utils.git
+[submodule "biopet-tools"]
+	path = biopet-tools
+	url = https://github.com/biopet/biopet-tools.git
