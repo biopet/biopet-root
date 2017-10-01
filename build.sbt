@@ -1,4 +1,4 @@
-organization := "nl.biopet"
+organization := "com.github.biopet"
 name := "biopetRoot"
 
 version := "0.1.0-SNAPSHOT"
@@ -6,6 +6,8 @@ version := "0.1.0-SNAPSHOT"
 scalaVersion := "2.11.11"
 
 resolvers += Resolver.mavenLocal
+
+useGpg := true
 
 lazy val biopetRoot = (project in file("."))
   .aggregate(biopetSummary, biopetSummaryTool, biopetReport, biopetUtils, biopetTools)
