@@ -1,9 +1,12 @@
 [submodule "biopet-report"]
+    branch = develop
 	path = biopet-report
 	url = https://github.com/biopet/biopet-report.git
 [submodule "biopet-utils"]
+    branch = develop
 	path = biopet-utils
 	url = https://github.com/biopet/biopet-utils.git
 [submodule "biopet-tools"]
+    branch = develop
 	path = biopet-tools
 	url = https://github.com/biopet/biopet-tools.git
