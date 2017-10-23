@@ -7,7 +7,7 @@ resolvers += Resolver.mavenLocal
 
 useGpg := true
 
-lazy val biopetRoot = (project in file("."))
+lazy val root = (project in file("."))
   .aggregate(utils, tools)
 
 lazy val utils = project in file("utils")
