@@ -3,7 +3,7 @@ name := "root"
 
 scalaVersion := "2.11.11"
 
-resolvers += Resolver.mavenLocal
+resolvers += Resolver.sonatypeRepo("snapshots")
 
 useGpg := true
 
