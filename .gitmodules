@@ -1,8 +1,8 @@
-[submodule "biopet-utils"]
+[submodule "utils"]
     branch = develop
-	path = biopet-utils
-	url = https://github.com/biopet/biopet-utils.git
-[submodule "biopet-tools"]
+	path = utils
+	url = https://github.com/biopet/utils.git
+[submodule "tools"]
     branch = develop
-	path = biopet-tools
-	url = https://github.com/biopet/biopet-tools.git
+	path = tools
+	url = https://github.com/biopet/tools.git
