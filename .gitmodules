@@ -6,3 +6,6 @@
     branch = develop
 	path = tools
 	url = https://github.com/biopet/tools.git
+[submodule "sbt-biopet"]
+	path = sbt-biopet
+	url = https://github.com/biopet/sbt-biopet.git
