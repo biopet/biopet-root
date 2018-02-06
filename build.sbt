@@ -12,7 +12,6 @@ developers += Developer(id="ffinfo", name="Peter van 't Hof", email="pjrvanthof@
 lazy val root = (project in file("."))
   .aggregate(utils, tools)
 
-lazy val sbtBiopet = project in file("sbt-biopet")
 lazy val utils = project in file("utils")
 lazy val tools = (project in file("tools"))
   .dependsOn(utils)
