@@ -1,11 +1,13 @@
 organization := "com.github.biopet"
-name := "root"
+name := "Root"
 
 scalaVersion := "2.11.11"
 
-resolvers += Resolver.sonatypeRepo("snapshots")
+biopetUrlName := "root"
 
-useGpg := true
+biopetIsTool := false
+
+developers += Developer(id="ffinfo", name="Peter van 't Hof", email="pjrvanthof@gmail.com", url=url("https://github.com/ffinfo"))
 
 lazy val root = (project in file("."))
   .aggregate(utils, tools)
