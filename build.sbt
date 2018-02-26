@@ -7,7 +7,10 @@ biopetUrlName := "root"
 
 biopetIsTool := false
 
-developers += Developer(id="ffinfo", name="Peter van 't Hof", email="pjrvanthof@gmail.com", url=url("https://github.com/ffinfo"))
+developers += Developer(id = "ffinfo",
+                        name = "Peter van 't Hof",
+                        email = "pjrvanthof@gmail.com",
+                        url = url("https://github.com/ffinfo"))
 
 lazy val root = (project in file("."))
   .aggregate(utils, tools)
