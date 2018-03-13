@@ -5,17 +5,17 @@ node('local') {
             env.JAVA_HOME="${tool 'JDK 8u102'}"
             env.PATH="${env.JAVA_HOME}/bin:${env.PATH}"
             sh 'java -version'
-            tool 'sbt 0.13.15'
+            tool 'sbt 1.0.4'
             checkout scm
             sh 'git submodule update --init --recursive'
         }
 
         stage('Build') {
-            sh "${tool name: 'sbt 0.13.15', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'}/bin/sbt -no-colors clean compile"
+            sh "${tool name: 'sbt 1.0.4', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'}/bin/sbt -no-colors clean compile"
         }
 
         stage('Test') {
-            sh "${tool name: 'sbt 0.13.15', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'}/bin/sbt -no-colors coverageOn test coverageReport coverageAggregate"
+            sh "${tool name: 'sbt 1.0.4', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'}/bin/sbt -no-colors coverageOn test coverageReport coverageAggregate"
         }
 
         stage('Results') {
